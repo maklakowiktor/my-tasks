@@ -1,24 +1,10 @@
-# README
+# Тестовое задание Oblako Group
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+В процессе выполнения задания предстоит реализовать полноценное full stack приложение «Мои задачи», включающее в себя back end написанный на Ruby и front end на TypeScript, с использованием фреймворков Ruby on Rails и Angular. В результате приложение будет развернуто на Heroku.
 
-Things you may want to cover:
+## Ход работы
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [x] Этап 1. Инициализация API
+- [ ] Этап 2. Создание API для списка задач
+- [ ] Этап 3. Инициализация front end приложения
+- [ ] Этап 4. Создание front end для списка задач
