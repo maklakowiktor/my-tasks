@@ -8,3 +8,5 @@
 - [ ] Этап 2. Создание API для списка задач
 - [ ] Этап 3. Инициализация front end приложения
 - [ ] Этап 4. Создание front end для списка задач
+
+[Результат](https://mysterious-refuge-53705.herokuapp.com/projects)
