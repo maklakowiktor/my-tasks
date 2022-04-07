@@ -19,7 +19,7 @@ class TodosController < ApplicationController
 		@todo = Todo.new(text: text, is_completed: false, project_id: project_id)
 		
 		if @todo.save
-			render json: @todo
+			render json: @todo, :except => [:created_at, :updated_at]
 		else
 			render error: { error: 'Unable to create todo.' }, status: 400
 		end 

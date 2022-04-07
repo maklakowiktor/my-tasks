@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   
   post '/todos', to: 'todos#create'
   
-  patch '/projects/:project_id/todos/:todo_id', to: 'projects#update'
+  patch '/projects/:project_id/todo/:todo_id', to: 'projects#update'
 
 end

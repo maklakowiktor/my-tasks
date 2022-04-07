@@ -27,7 +27,7 @@ class ProjectsController < ApplicationController
       @todo.update(is_completed: updated_is_completed)
       
       if @todo.save
-        render json: @todo
+        render json: @todo, :except => [:created_at, :updated_at]
       else
         render error: { error: 'Unable to update todo' }, status: 400
       end 
