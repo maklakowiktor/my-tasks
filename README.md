@@ -29,18 +29,19 @@
 
 `POST /todos`
 
-    curl -i -H 'Accept: application/json' -d 'text=Подготовиться к поездке&project_id=4&title=Прочее' https://mysterious-refuge-53705.herokuapp.com/todos
+    curl -i -H 'Accept: application/json' -d 'text=Начать писать frontend на TS &project_id=1&title=Разработка' https://mysterious-refuge-53705.herokuapp.com/todos
 
 ### Ответ
 
-    {"id":11,"text":"Подготовиться к поездке","is_completed":false,"project_id":4}
+    {"id":12,"text":"Начать писать frontend на TS ","is_completed":false,"project_id":1}
 
 ## Обновить задачу
 
 `PATCH /projects/<project_id>/todo/<todo_id>`
 
-    curl -i -H 'Accept: application/json' -d 'is_completed=true' https://mysterious-refuge-53705.herokuapp.com/projects/1/todo/2
+    curl -i -H 'Accept: application/json' -X PATCH -d 'is_completed=true' https://mysterious-refuge-53705.herokuapp.com/projects/1/todo/1
+    
 
 ### Ответ
 
-    {"project_id":1,"is_completed":true,"id":2,"text":"Заменить масло в двигателе до 23 апреля"}
+    {"project_id":1,"is_completed":true,"id":1,"text":"Задеплоить приложение на heroku"}
