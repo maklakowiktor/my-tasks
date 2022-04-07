@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "my_tasks RoR",
+            "database": "my_tasks_development",
+            "username": "maklakowiktor"
+        }
+    ]
+}
